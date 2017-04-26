@@ -1,6 +1,6 @@
 # npmtest-google-libphonenumber
 
-#### test coverage for  [google-libphonenumber (v2.0.15)](http://seegno.github.io/google-libphonenumber/)  [![npm package](https://img.shields.io/npm/v/npmtest-google-libphonenumber.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-google-libphonenumber) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-google-libphonenumber.svg)](https://travis-ci.org/npmtest/node-npmtest-google-libphonenumber)
+#### basic test coverage for  [google-libphonenumber (v2.0.15)](http://seegno.github.io/google-libphonenumber/)  [![npm package](https://img.shields.io/npm/v/npmtest-google-libphonenumber.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-google-libphonenumber) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-google-libphonenumber.svg)](https://travis-ci.org/npmtest/node-npmtest-google-libphonenumber)
 
 #### The up-to-date and reliable Google's libphonenumber package for node.js.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-google-libphonenumber/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-google-libphonenumber/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-google-libphonenumber/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-google-libphonenumber/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-google-libphonenumber/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-google-libphonenumber/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-google-libphonenumber/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-google-libphonenumber/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-google-libphonenumber/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-google-libphonenumber/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-google-libphonenumber/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-google-libphonenumber/build/coverage.html/index.html)
 
@@ -101,7 +101,8 @@
         "update": "bin/update.sh",
         "version": "npm run changelog --future-release=$npm_package_version && npm run build && git add -A CHANGELOG.md dist"
     },
-    "version": "2.0.15"
+    "version": "2.0.15",
+    "bin": {}
 }
 ```
 
